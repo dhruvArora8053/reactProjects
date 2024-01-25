@@ -54,7 +54,10 @@ function Task({ task }) {
   return (
     <p className="task">
       {task.task}
-      <span>🖋️ ❌</span>
+      <div>
+        <span className="icon">🖋️</span>
+        <span className="icon">❌</span>
+      </div>
     </p>
   );
 }
